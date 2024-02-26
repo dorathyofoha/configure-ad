@@ -71,7 +71,7 @@ In the DC, I installed Active Directory Domain Services (AD DS) from the Server 
 <img src="https://i.imgur.com/jbCeryh.png" height="70%" width="70%"/>
 </p>
 <p>
-Now that Active Directory was all set up, I added two organizational units (OU) and a user. The OUs were _ADMINS and _EMPLOYEES, and the new user was “Jane Doe.” Jane was going to be an administrator, so I created her account inside the _ADMINS OU and added her as a member of Domain Admins. I logged out of the default account that I started with and logged back in as Jane.
+Now that Active Directory was all set up, I added two organizational units (OU) and a user. The OUs were _ADMINS and _EMPLOYEES, and the new user was “Jane Doe.” Jane was going to be an administrator, so I created her account inside the _ADMINS OU and added her as a member of Domain Admins. I logged out of the default account that I started with and logged back in as Jane Doe.
 </p>
 <br />
 
@@ -90,7 +90,7 @@ To continue with setting up my domain, I went back to Azure and set the DC’s p
 <img src="https://i.imgur.com/EWzPnOh.png" height="70%" width="70%"/>
 </p>
 <p>
-I enabled Domain Users to user Remote Desktop to access the Client. Remote Desktop is the only way to log into the VM, so enabling this for Domain Users would allow for any user accounts in the domain to be able to log into this machine.
+I enabled Domain Users to user Remote Desktop to access the Client. Enabling this for Domain Users would allow for any user accounts in the domain to be able to log into this machine.
 </p>
 <br />
 
