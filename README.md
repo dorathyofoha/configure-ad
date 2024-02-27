@@ -20,7 +20,7 @@
 
 <h2>High-Level Steps</h2>
 
-- Create 2 virtual machines, one with Windows 10 (Client VM) and the other with Windows Server 2022 (Domain Controller VM)
+- Create 2 virtual machines, one with Windows Server 2022 (Domain Controller VM) and the other with Windows 10 (Client VM) 
 -	Set the DC’s NIC private IP address from Dynamic to Static
 -	Connect to both VMs using Remote Desktop
 -	Initiate a perpetual ping from the Client to the DC; if there is no reply, enable Core Networking Diagnostics in the DC’s firewall
@@ -32,7 +32,7 @@
 -	Connect to the Client with Remote Desktop using one of the newly created user accounts
 
 
-<h2>Synopsis</h2>
+6-+<h2>Synopsis</h2>
 
 <p>
 <img src="https://i.imgur.com/ti0b95l.png" height="70%" width="70%"/>
@@ -106,6 +106,6 @@ Lastly, I created 10,000 user accounts using a PowerShell script. All of the acc
 <br />
 
 <p>
-✨ This lab was of immense value to me. I learnt a lot about how Active Directory works and had fun navigating through AD, creating thousands of user accounts using a PowerShell script, logging into a user's account using Remote access and changing a user's password.
+✨ This lab was of immense value to me. I learnt a lot about how Active Directory works and enjoyed navigating through AD, creating thousands of user accounts using a PowerShell script, logging into a user's account using Remote access, changing a user's password, creating and managing group policy.
 </p>
 <br />
