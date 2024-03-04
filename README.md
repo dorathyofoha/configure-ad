@@ -32,7 +32,7 @@
 -	Connect to the Client with Remote Desktop using one of the newly created user accounts
 
 
-6-+<h2>Synopsis</h2>
+<h2>Synopsis</h2>
 
 <p>
 <img src="https://i.imgur.com/ti0b95l.png" height="70%" width="70%"/>
